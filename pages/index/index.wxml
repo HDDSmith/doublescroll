@@ -1,0 +1,6 @@
+<scroll-view class='scroll-container' scroll-y style='height:100%;' scroll-with-animation="true" bindscroll="scrollListener" scroll-top="{{scrollTop}}" bindtouchend='scrollTouchEnd' bindtouchstart='scrollTouchStart'>
+  <view>
+  <view class='top ' style='height:1500rpx;width:100%;background-color:red'></view>
+  <view class='bottom ' style='height:1500rpx;width:100%;background-color:gray'></view>
+  </view>
+</scroll-view>
